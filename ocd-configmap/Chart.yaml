@@ -1,4 +1,4 @@
-name: ocd-configmaps
+name: ocd-configmap
 description: Creates configmaps that can be upgraded and rolled back
 home: https://github.com/ocd-scm/ocd-configmap.git
 keywords:
