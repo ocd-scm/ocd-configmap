@@ -20,7 +20,7 @@ github.com:
   oauth_token: ${GITHUB_OAUTH_TOKEN}
 EOL
 
-cd ocd-secret
+cd ocd-configmap
 
 NAME=$(cat Chart.yaml | yq .name | sed 's/"//g' )
 VERSION=$(cat Chart.yaml | yq .version | sed 's/"//g')
