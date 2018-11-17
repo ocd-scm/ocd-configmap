@@ -1,0 +1,9 @@
+name: ocd-configmaps
+description: Creates configmaps that can be upgraded and rolled back
+home: https://github.com/ocd-scm/ocd-configmap.git
+keywords:
+- configmap
+- openshift
+sources:
+- https://github.com/ocd-scm/ocd-configmap.git
+version: "1.0.0"

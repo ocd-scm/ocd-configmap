@@ -1,0 +1,8 @@
+# name: The name assigned to the secret
+name: test
+# env_vars: The keys and values to make env vars
+helm_values: |
+    # replicas: number of pods
+    replicas: 1
+    # test
+    hello: world
