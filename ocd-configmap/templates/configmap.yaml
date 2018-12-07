@@ -3,5 +3,6 @@ kind: ConfigMap
 metadata:
   name: {{ .Values.name | quote }}
 data:
-  helm_values: |
-    {{ .Values.helm_values }}
+  {{- range .Values.env_vars }}
+  {{ .key }}: {{ .value  | quote }}
+  {{- end }}
