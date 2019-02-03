@@ -1,2 +1,2 @@
 #!/bin/bash
-helm package ocd-secret
+helm package ocd-configmap
