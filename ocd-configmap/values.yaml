@@ -1,8 +1,8 @@
 # name: The name assigned to the secret
-name: test
+#name: test
 # env_vars: The keys and values to make env vars
-env_vars: 
-  - key: replicas
-    value: 1
-  - key: hello
-    value: world
+# env_vars: 
+#   - key: replicas
+#     value: 1
+#   - key: hello
+#     value: world
